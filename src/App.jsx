@@ -70,7 +70,7 @@ function App() {
     <>
       <div className="barra">
         <div className="barra-content">
-          <img src="logo.PNG" alt="Logo SM" className="logo-header" />
+          <img src="logo.png" alt="Logo SM" className="logo-header" />
           <h1 className="titolo">Stefano Martucci</h1>
         </div>
       </div>
@@ -82,10 +82,10 @@ function App() {
               <img src="fotocurr.png" className="base" width="170" height="179" alt="" />
             </div>
             <div>
-              <h1>Stefano Martucci</h1>
-              <h2>Informatico</h2>
-              <p>Nato il 21/06/2002, domiciliato a Catania,</p>
-              <p>appassionato di informatica, programmazione e tecnologia in generale,</p>
+              <h1 className="hero-name">Stefano Martucci</h1>
+              <h2 className="hero-role">Informatico</h2>
+              <p className="hero-desc">Nato il 21/06/2002, domiciliato a Catania,</p>
+              <p className="hero-desc">appassionato di informatica, programmazione e tecnologia in generale,</p>
               <p>mi piace stare al passo coi tempi e acquisire nuove conoscenze.</p>
             </div>
             <div className="buttons">
